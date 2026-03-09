@@ -1,11 +1,8 @@
-# 只跟踪articles文件夹，其他全部忽略
+# 忽略所有
 *
 
-# 但保留articles文件夹
-!articles/
-
-# 保留.gitignore本身
+# 但保留以下
 !.gitignore
-
-# 保留推送脚本（可选）
 !push_to_github.sh
+!articles/
+!articles/**/*
