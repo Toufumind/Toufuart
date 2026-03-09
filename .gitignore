@@ -1,0 +1,89 @@
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 环境配置
+.env
+.env.local
+.env.*.local
+
+# 日志
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 运行时数据
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# 依赖目录
+node_modules/
+jspm_packages/
+
+# 可选缓存目录
+.npm
+.eslintcache
+
+# 可选编译输出
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# 测试相关
+coverage/
+.nyc_output
+
+# 生产环境
+*.prod.*
+*.production.*
+
+# 调试文件
+.debug
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 大文件
+*.zip
+*.tar.gz
+*.rar
+
+# 媒体文件（可选，如果不需要版本控制）
+*.mp4
+*.mp3
+*.wav
+*.avi
+*.mov
+
+# 图片文件（可选，如果不需要版本控制）
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.ico
+
+# OpenClaw特定
+.openclaw/cache/
+.openclaw/logs/
+.openclaw/tmp/
+
+# 工作区临时文件
+/tmp/
