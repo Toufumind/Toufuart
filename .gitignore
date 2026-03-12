@@ -1,17 +1,6 @@
-# 忽略所有
-*
-
-# 但保留以下
-!.gitignore
-!push_to_github.sh
-!articles/
-!articles/**/*
-!2026-*/
-
-# 备份目录
+# 忽略备份和临时文件
 backup_*/
-backups/workspace/  # 工作空间备份，通常很大
-backups/idea-factory/  # 点子备份
+backups/  # 所有备份目录
 
 # 临时文件
 *.tmp
@@ -21,3 +10,94 @@ backups/idea-factory/  # 点子备份
 # 系统文件
 .DS_Store
 Thumbs.db
+
+# IDE和编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python缓存
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 特定文件类型（根据需要调整）
+*.zip
+*.tar
+*.gz
+
+# 本地配置文件（不提交敏感信息）
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+config.local.json
+secrets.json
+
+# 大型媒体文件（建议使用Git LFS）
+*.mp4
+*.mov
+*.avi
+*.wmv
+*.flv
+*.mkv
+*.mp3
+*.wav
+*.flac
+*.aac
+
+# 大型数据文件
+*.h5
+*.pkl
+*.pickle
+*.pth
+*.pt
+*.bin
+*.dat
+
+# 编译产物
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.jar
+*.war
+*.ear
+
+# 日志文件
+logs/
+*.log
+log.txt
+
+# 测试覆盖率报告
+coverage/
+*.lcov
+
+# 生产构建产物
+build/
+dist/
+out/
+target/
+
+# 依赖安装目录
+.venv/
+venv/
+env/
+ENV/
+
+# 文档生成产物
+docs/_build/
+site/
+
+# 特定项目的忽略规则
+# 例如：*.blend  # Blender文件可能很大

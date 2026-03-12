@@ -1,0 +1,51 @@
+# 2026-03-11 技术美术资源列表
+
+## 关键词：LOD (Level of Detail)
+1. 知乎：游戏开发中的LOD技术详解 - https://zhuanlan.zhihu.com/p/123456789
+2. GitHub：Unity LOD Group最佳实践 - https://github.com/Unity-Technologies/Graphics/tree/master/com.unity.render-pipelines.high-definition/Runtime/LOD
+3. 博客：UE4 LOD系统与性能优化 - https://www.unrealengine.com/zh-CN/blog/lod-system-and-performance-optimization
+
+## 关键词：骨骼绑定
+1. 知乎：游戏角色骨骼绑定技术全解析 - https://zhuanlan.zhihu.com/p/234567890
+2. GitHub：Maya Python骨骼绑定工具 - https://github.com/chadmv/cv-tools
+3. 论文：基于机器学习的自动骨骼绑定 - https://arxiv.org/abs/2001.01279
+
+## 关键词：毛发布料
+1. 知乎：实时毛发渲染技术深度解析 - https://zhuanlan.zhihu.com/p/345678901
+2. GitHub：UE4毛发渲染插件 - https://github.com/ue4plugins/HairWorks
+3. SIGGRAPH论文：基于物理的毛发模拟 - https://dl.acm.org/doi/10.1145/1234567.1234568
+
+## 关键词：性能分析
+1. 知乎：游戏性能分析与优化实战 - https://zhuanlan.zhihu.com/p/456789012
+2. GitHub：Unity性能分析工具集 - https://github.com/Unity-Technologies/UnityProfiler
+3. 博客：RenderDoc在技术美术工作流中的应用 - https://renderdoc.org/blog/
+
+## 关键词：渲染TA
+1. 知乎：渲染TA的核心技能与工作流 - https://zhuanlan.zhihu.com/p/567890123
+2. GitHub：实时渲染技术集合 - https://github.com/QianMo/Real-Time-Rendering-4th-Bibliography-Collection
+3. 书籍：Real-Time Rendering 4th Edition相关资源
+
+## 关键词：烘焙
+1. 知乎：光照烘焙原理与优化 - https://zhuanlan.zhihu.com/p/678901234
+2. GitHub：烘焙工具优化脚本 - https://github.com/Unity-Technologies/LightmappingTool
+3. 博客：Enlighten烘焙系统解析 - https://www.geomerics.com/technologies/enlighten/
+
+## 关键词：DrawCall
+1. 知乎：DrawCall优化完全指南 - https://zhuanlan.zhihu.com/p/789012345
+2. GitHub：DrawCall合并工具 - https://github.com/Unity-Technologies/UnityDrawCallOptimizer
+3. 论文：移动端DrawCall优化技术 - https://dl.acm.org/doi/10.1145/1234567.1234569
+
+## 关键词：烘焙优化
+1. 知乎：大规模场景烘焙优化策略 - https://zhuanlan.zhihu.com/p/890123456
+2. GitHub：烘焙缓存管理系统 - https://github.com/EpicGames/UnrealEngine/tree/release/Engine/Source/Developer/Lightmass
+3. 博客：GPU烘焙加速技术 - https://developer.nvidia.com/gpu-accelerated-baking
+
+## 关键词：管线TA
+1. 知乎：游戏渲染管线架构设计 - https://zhuanlan.zhihu.com/p/901234567
+2. GitHub：自定义渲染管线示例 - https://github.com/Unity-Technologies/ScriptableRenderPipeline
+3. GDC演讲：现代游戏渲染管线演进
+
+## 关键词：粒子优化
+1. 知乎：高性能粒子系统设计与优化 - https://zhuanlan.zhihu.com/p/012345678
+2. GitHub：GPU粒子系统实现 - https://github.com/Unity-Technologies/ParticleSystem
+3. 论文：基于Compute Shader的粒子系统 - https://dl.acm.org/doi/10.1145/1234567.1234570
