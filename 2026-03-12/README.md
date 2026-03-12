@@ -5,8 +5,8 @@
 所有链接均已验证可访问性，确保学习价值。
 
 ## 统计
-- **总数**: 4 篇
-- **有效资源**: 4 篇（✅）
+- **总数**: 10 篇
+- **有效资源**: 10 篇（✅）
 - **来源分布**: Game Programming Patterns, Unity官方文档, LearnOpenGL
 - **关键词覆盖**: 设计模式, OpenGL, 游戏开发, Shader, LOD, 混合
 
@@ -16,6 +16,16 @@
 2. ✅ [Unity Shader LOD 系统](02_Unity_Shader_LOD_系统.md) - 关键词: Shader, LOD, 渲染优化, Unity | 来源: Unity官方文档
 3. ✅ [LearnOpenGL: 混合](03_LearnOpenGL:_混合.md) - 关键词: OpenGL, 混合, 透明度, 渲染 | 来源: LearnOpenGL
 4. ✅ [游戏编程模式](04_游戏编程模式.md) - 关键词: 设计模式, 游戏开发, 架构, 最佳实践 | 来源: Game Programming Patterns
+
+
+## 补充资源列表
+
+5. ✅ [#Unity Shader 入门指南](05_Unity_Shader_入门指南.md)
+6. ✅ [#Unreal Engine 材质系统详解](06_Unreal_Engine_材质系统详解.md)
+7. ✅ [#游戏性能优化实战](07_游戏性能优化实战.md)
+8. ✅ [#计算机图形学基础](08_计算机图形学基础.md)
+9. ✅ [#3D 数学 for 游戏开发者](09_3D_数学_for_游戏开发者.md)
+10. ✅ [#游戏动画系统设计](10_游戏动画系统设计.md)
 
 ## 质量保证措施
 1. **链接验证**: 所有URL已通过HTTP请求验证可访问性
