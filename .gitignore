@@ -7,3 +7,17 @@
 !articles/
 !articles/**/*
 !2026-*/
+
+# 备份目录
+backup_*/
+backups/workspace/  # 工作空间备份，通常很大
+backups/idea-factory/  # 点子备份
+
+# 临时文件
+*.tmp
+*.temp
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
