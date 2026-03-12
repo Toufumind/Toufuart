@@ -1,0 +1,97 @@
+version: '3.8'
+
+services:
+  techart-collector:
+    build:
+      context: .
+      dockerfile: Dockerfile.collector
+    image: techart-collector:latest
+    container_name: techart-collector
+    restart: unless-stopped
+    environment:
+      - TZ=Asia/Shanghai
+      - LOG_LEVEL=INFO
+      - COLLECTOR_CONFIG=/app/config/collector-config.json
+      - DATA_DIR=/app/data
+      - LOGS_DIR=/app/logs
+    volumes:
+      - techart-data:/app/data
+      - techart-logs:/app/logs
+      - ./config:/app/config:ro
+    networks:
+      - techart-network
+    healthcheck:
+      test: ["CMD", "python", "-c", "import sys; sys.exit(0)"]
+      interval: 5m
+      timeout: 30s
+      retries: 3
+      start_period: 1m
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 512M
+        reservations:
+          cpus: '0.25'
+          memory: 256M
+    labels:
+      - "com.techart.description=TechArt资源收集器"
+      - "com.techart.version=2.0"
+      - "com.techart.maintainer=TechArt Team"
+
+  cron-scheduler:
+    build:
+      context: .
+      dockerfile: Dockerfile.scheduler
+    image: techart-scheduler:latest
+    container_name: techart-scheduler
+    restart: unless-stopped
+    volumes:
+      - ./config/cron-tab:/etc/crontabs/root:ro
+      - techart-data:/app/data:ro
+      - techart-logs:/app/logs
+    depends_on:
+      - techart-collector
+    networks:
+      - techart-network
+    labels:
+      - "com.techart.description=TechArt任务调度器"
+      - "com.techart.version=1.0"
+
+  # 可选: Web管理界面
+  techart-web:
+    image: nginx:alpine
+    container_name: techart-web
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    volumes:
+      - ./web:/usr/share/nginx/html:ro
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - techart-collector
+    networks:
+      - techart-network
+    labels:
+      - "com.techart.description=TechArt Web管理界面"
+
+networks:
+  techart-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16
+    labels:
+      - "com.techart.network=techart-internal"
+
+volumes:
+  techart-data:
+    name: techart-data-volume
+    labels:
+      - "com.techart.volume=data"
+      - "com.techart.backup=enabled"
+  techart-logs:
+    name: techart-logs-volume
+    labels:
+      - "com.techart.volume=logs"
+      - "com.techart.retention=7days"
