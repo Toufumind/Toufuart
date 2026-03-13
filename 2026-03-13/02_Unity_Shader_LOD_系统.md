@@ -1,7 +1,7 @@
-## [游戏程序员的学习之路](https://github.com/miloyip/game-programmer)
+## [Unity Shader LOD 系统](https://docs.unity3d.com/Manual/SL-ShaderLOD.html)
 
-**来源**: GitHub - miloyip
-**关键词**: 学习路径, 游戏开发, 资源集合, 技术栈
+**来源**: Unity官方文档
+**关键词**: Shader, LOD, 渲染优化, Unity
 **收录时间**: 2026-03-13 14:00
 **验证状态**: ✅ 有效（已验证可访问）
 **验证备注**: [真实可访问资源] [官方/高质量来源]
@@ -12,7 +12,7 @@
 - **适用阶段**: 学习/参考/实践
 
 ### 内容概述
-此资源来自GitHub - miloyip，是TechArt领域的权威参考资料。内容涵盖学习路径, 游戏开发, 资源集合等关键技术主题。
+此资源来自Unity官方文档，是TechArt领域的权威参考资料。内容涵盖Shader, LOD, 渲染优化等关键技术主题。
 
 ### 访问说明
 1. 点击上方链接直接访问

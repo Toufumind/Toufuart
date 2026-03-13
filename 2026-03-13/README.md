@@ -5,19 +5,18 @@
 所有链接均已验证可访问性，确保学习价值。
 
 ## 统计
-- **总数**: 6 篇
-- **有效资源**: 6 篇（✅）
-- **来源分布**: Game Programming Patterns, GitHub - miloyip, Unity官方文档, LearnOpenGL
-- **关键词覆盖**: 性能优化, 深度测试, OpenGL, LOD, 设计模式, 学习路径, 混合, 游戏开发, Shader
+- **总数**: 5 篇
+- **有效资源**: 5 篇（✅）
+- **来源分布**: GitHub - miloyip, Game Programming Patterns, Unity官方文档, NVIDIA GPU Gems
+- **关键词覆盖**: GPU, 并行计算, LOD, 性能优化, 设计模式, Shader, 学习路径, 游戏开发
 
 ## 资源列表（带验证状态）
 
-1. ✅ [LearnOpenGL: 深度测试](01_LearnOpenGL:_深度测试.md) - 关键词: OpenGL, 深度测试, 图形学, 渲染管线 | 来源: LearnOpenGL
-2. ✅ [Unity LOD (Level of Detail) 系统](02_Unity_LOD_(Level_of_.md) - 关键词: LOD, 性能优化, Unity, 渲染TA | 来源: Unity官方文档
-3. ✅ [Unity Shader LOD 系统](03_Unity_Shader_LOD_系统.md) - 关键词: Shader, LOD, 渲染优化, Unity | 来源: Unity官方文档
+1. ✅ [Unity LOD (Level of Detail) 系统](01_Unity_LOD_(Level_of_.md) - 关键词: LOD, 性能优化, Unity, 渲染TA | 来源: Unity官方文档
+2. ✅ [Unity Shader LOD 系统](02_Unity_Shader_LOD_系统.md) - 关键词: Shader, LOD, 渲染优化, Unity | 来源: Unity官方文档
+3. ✅ [游戏编程模式](03_游戏编程模式.md) - 关键词: 设计模式, 游戏开发, 架构, 最佳实践 | 来源: Game Programming Patterns
 4. ✅ [游戏程序员的学习之路](04_游戏程序员的学习之路.md) - 关键词: 学习路径, 游戏开发, 资源集合, 技术栈 | 来源: GitHub - miloyip
-5. ✅ [LearnOpenGL: 混合](05_LearnOpenGL:_混合.md) - 关键词: OpenGL, 混合, 透明度, 渲染 | 来源: LearnOpenGL
-6. ✅ [游戏编程模式](06_游戏编程模式.md) - 关键词: 设计模式, 游戏开发, 架构, 最佳实践 | 来源: Game Programming Patterns
+5. ✅ [GPU Gems 3: 并行前缀和扫描](05_GPU_Gems_3:_并行前缀和扫描.md) - 关键词: GPU, 并行计算, CUDA, 性能优化 | 来源: NVIDIA GPU Gems
 
 ## 质量保证措施
 1. **链接验证**: 所有URL已通过HTTP请求验证可访问性
@@ -37,5 +36,5 @@
 - 建立用户反馈机制
 
 ---
-*生成时间: 2026-03-13 06:20:14*
+*生成时间: 2026-03-13 14:00:43*
 *技能版本: v2.0 (真实资源版)*
